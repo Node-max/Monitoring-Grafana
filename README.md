@@ -2489,6 +2489,13 @@ Enter username and password using admin
   "weekStart": ""
 }
 ```
+**In this section you can change the name and uid to your heart's content**
+**Then hit import**
+<img width="464" alt="image" src="https://user-images.githubusercontent.com/61777095/224715336-8c7cbfee-7fd5-4d5f-8dae-bda8e55ae259.png">
+
+
+<img width="919" alt="image" src="https://user-images.githubusercontent.com/61777095/224715429-943ddd74-0a49-4a11-8308-3d7976b4c5b9.png">
+
 
 
 
