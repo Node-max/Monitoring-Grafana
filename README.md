@@ -1,13 +1,13 @@
-**1. Insal node nolus**
-<img width="476" alt="image" src="https://user-images.githubusercontent.com/61777095/224585673-69d8196d-98e6-417b-8ff4-021f727bcc5b.png">
-**2. Install monitoring stack**
-install the monitoring using the auto installer from kjnode
+**1. Insal node nolus** \
+<img width="476" alt="image" src="https://user-images.githubusercontent.com/61777095/224585673-69d8196d-98e6-417b-8ff4-021f727bcc5b.png"> \
+**2. Install monitoring stack** 
+install the monitoring using the auto installer from kjnode \
 ```python
 wget -O install_monitoring.sh https://raw.githubusercontent.com/kj89/cosmos_node_monitoring/master/install_monitoring.sh && chmod +x install_monitoring.sh && ./install_monitoring.sh
 ```
 **3. Setting Config Node**
-a. Changing Node Configs
-<img width="418" alt="image" src="https://user-images.githubusercontent.com/61777095/224708362-775aef6e-9c45-469e-940a-1fcc8f0162e5.png">
+a. Changing Node Configs \
+<img width="418" alt="image" src="https://user-images.githubusercontent.com/61777095/224708362-775aef6e-9c45-469e-940a-1fcc8f0162e5.png"> \
 
 **Follow the instructions below**
 - **Step into**
@@ -25,11 +25,11 @@ sudo systemctl restart nolusd
 **b. Bress on the keyboard cd**
 **c. Then enter the following command**
 ```python
-nano cosmos_node_monitoring/prometheus/prometheus.yml
+nano cosmos_node_monitoring/prometheus/prometheus.yml 
 ```
-<img width="439" alt="image" src="https://user-images.githubusercontent.com/61777095/224709583-2baf92eb-e3e5-4ded-9629-8582a7dab623.png">
-**delete all contents by pressing on the keyboard SHIFT+DOWN ARROW for the block code then pressing on the keyboard CTRL+K**
-<img width="452" alt="image" src="https://user-images.githubusercontent.com/61777095/224709661-a78af651-7da2-4d3d-b11e-12cf82e88fad.png">
+<img width="439" alt="image" src="https://user-images.githubusercontent.com/61777095/224709583-2baf92eb-e3e5-4ded-9629-8582a7dab623.png"> \
+**delete all contents by pressing on the keyboard SHIFT+DOWN ARROW for the block code then pressing on the keyboard CTRL+K** \
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/61777095/224709661-a78af651-7da2-4d3d-b11e-12cf82e88fad.png"> \
 **if it has been deleted, change it with the following config**
 ```python
 global:
